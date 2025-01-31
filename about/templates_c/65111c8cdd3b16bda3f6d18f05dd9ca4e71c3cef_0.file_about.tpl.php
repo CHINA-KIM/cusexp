@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-01-31 06:47:25
+/* Smarty version 5.4.3, created on 2025-01-31 10:31:30
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679c71fdbc3588_87873125',
+  'unifunc' => 'content_679ca682efbcb2_73207193',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738303455,
+      1 => 1738319490,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679c71fdbc3588_87873125 (\Smarty\Template $_smarty_tpl) {
+function content_679ca682efbcb2_73207193 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>關於我們</title>
+    <title>iDESIGN - Interior Design HTML Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -59,11 +59,11 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="">常見問題</a>
+                        <a class="text-white pr-3" href="">FAQs</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">幫助</a>
+                        <a class="text-white px-3" href="">Help</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="">技術支持</a>
+                        <a class="text-white pl-3" href="">Support</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -103,23 +103,11 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
-</a>
-                        <a href="about.html" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('About');?>
-</a>
-                        <a href="service.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
-</a>
-                        <a href="project.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
-</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
-</a>
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <a href="static/templates/service.tpl" class="nav-item nav-link">Service</a>
+                        <a href="project.html" class="nav-item nav-link">Project</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -250,7 +238,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
-                        <img class="h-100" src="../img/feature.jpg" alt="">
+                        <img class="h-100" src="img/feature.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -422,10 +410,10 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
     <!-- Contact Javascript File -->
     <?php echo '<script'; ?>
- src="../mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
+ src="mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="../mail/contact.js"><?php echo '</script'; ?>
+ src="mail/contact.js"><?php echo '</script'; ?>
 >
 
     <!-- Template Javascript -->
