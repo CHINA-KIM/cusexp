@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-01-31 10:31:30
+/* Smarty version 5.4.3, created on 2025-01-31 10:57:09
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679ca682efbcb2_73207193',
+  'unifunc' => 'content_679cac85853416_15005825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738319490,
+      1 => 1738320918,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679ca682efbcb2_73207193 (\Smarty\Template $_smarty_tpl) {
+function content_679cac85853416_15005825 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -36,7 +36,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -103,11 +103,18 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="static/templates/service.tpl" class="nav-item nav-link">Service</a>
-                        <a href="project.html" class="nav-item nav-link">Project</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <div class="navbar-nav ml-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
+                            <a href="about.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
+</a>
+                            <a href="service.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+</a>
+                            <a href="project.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
+</a>
+                            <a href="contact.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+</a>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -238,7 +245,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
-                        <img class="h-100" src="img/feature.jpg" alt="">
+                        <img class="h-100" src="../img/feature.jpg" alt="">
                     </div>
                 </div>
             </div>

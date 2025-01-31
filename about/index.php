@@ -21,6 +21,7 @@ $smarty->clearCompiledTemplate();
 $smarty->assign('title','客戶樣本');
 $smarty->assign('home', '主頁');
 $smarty->assign('About','關於');
+$smarty->assign('Project','成功案例');
 $smarty->assign('Contact','聯繫我們');
 $smarty->assign('Service','服務');
 // 渲染模板
