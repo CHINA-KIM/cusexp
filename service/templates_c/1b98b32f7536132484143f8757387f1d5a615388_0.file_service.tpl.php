@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 03:47:17
+/* Smarty version 5.4.3, created on 2025-02-01 06:22:03
   from 'file:D:\cusexp\service/../static/templates/service.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d9945c81ec0_34615925',
+  'unifunc' => 'content_679dbd8b5cfef2_69646497',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b98b32f7536132484143f8757387f1d5a615388' => 
     array (
       0 => 'D:\\cusexp\\service/../static/templates/service.tpl',
-      1 => 1738381465,
+      1 => 1738390829,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d9945c81ec0_34615925 (\Smarty\Template $_smarty_tpl) {
+function content_679dbd8b5cfef2_69646497 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>iDESIGN - Interior Design HTML Template</title>
+    <title>服務</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -105,13 +105,13 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
-" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
                     <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
 </a>
                     <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
-" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('Service');?>
 </a>
                     <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>iDESIGN - Interior Design HTML Template</title>
+    <title>服務</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -79,9 +79,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="{$indexurl}" class="nav-item nav-link active">{$home}</a>
+                    <a href="{$indexurl}" class="nav-item nav-link">{$home}</a>
                     <a href="{$Abouturl}" class="nav-item nav-link">{$About}</a>
-                    <a href="{$Serviceurl}" class="nav-item nav-link">{$Service}</a>
+                    <a href="{$Serviceurl}" class="nav-item nav-link active">{$Service}</a>
                     <a href="{$Projecturl}" class="nav-item nav-link">{$Project}</a>
                     <a href="{$Contacturl}" class="nav-item nav-link">{$Contact}</a>
                 </div>

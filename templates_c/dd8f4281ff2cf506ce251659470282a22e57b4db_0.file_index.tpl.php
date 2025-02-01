@@ -1,9 +1,34 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 5.4.3, created on 2025-02-01 05:31:33
+  from 'file:static\templates\index.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_679db1b521c496_21115751',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'dd8f4281ff2cf506ce251659470282a22e57b4db' => 
+    array (
+      0 => 'static\\templates\\index.tpl',
+      1 => 1738387890,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_679db1b521c496_21115751 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'D:\\cusexp\\static\\templates';
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>{$title}</title>
+    <title><?php echo $_smarty_tpl->getValue('title');?>
+</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -39,7 +64,8 @@
                     <span class="text-white">|</span>
                     <a class="text-white px-3" href="">幫助</a>
                     <span class="text-white">|</span>
-                    <a class="text-white pl-3" href="{$helplink}">技術支持</a>
+                    <a class="text-white pl-3" href="<?php echo $_smarty_tpl->getValue('helplink');?>
+">技術支持</a>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-right">
@@ -79,11 +105,21 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="{$indexurl}" class="nav-item nav-link active">{$home}</a>
-                    <a href="{$Abouturl}" class="nav-item nav-link">{$About}</a>
-                    <a href="{$Serviceurl}" class="nav-item nav-link">{$Service}</a>
-                    <a href="{$Projecturl}" class="nav-item nav-link">{$Project}</a>
-                    <a href="{$Contacturl}" class="nav-item nav-link">{$Contact}</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+</a>
                 </div>
             </div>
         </nav>
@@ -176,7 +212,8 @@
             <div class="col-lg-5">
                 <div class="d-flex flex-column align-items-center justify-content-center bg-primary h-100 py-5 px-3">
                     <i class="flaticon-brickwall display-1 font-weight-normal text-secondary mb-3"></i>
-                    <h4 class="display-3 mb-3">{$recenttimes}</h4>
+                    <h4 class="display-3 mb-3"><?php echo $_smarty_tpl->getValue('recenttimes');?>
+</h4>
                     <h1 class="m-0">Years Experience</h1>
                 </div>
             </div>
@@ -258,7 +295,8 @@
         <div class="row">
             <div class="col-lg-7 mt-5 py-5 pr-lg-5">
                 <h6 class="text-primary font-weight-normal text-uppercase mb-3">为什么选择我们?</h6>
-                <h1 class="mb-4 section-title">在行业内{$recenttimes}年设计经验</h1>
+                <h1 class="mb-4 section-title">在行业内<?php echo $_smarty_tpl->getValue('recenttimes');?>
+年设计经验</h1>
                 <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
                 <ul class="list-inline">
                     <li><h5><i class="far fa-check-square text-primary mr-3"></i>25+ Years Experience</h5></li>
@@ -662,19 +700,38 @@
 
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/isotope/isotope.pkgd.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
+<?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.4.1.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="lib/easing/easing.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="lib/owlcarousel/owl.carousel.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="lib/isotope/isotope.pkgd.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="lib/lightbox/js/lightbox.min.js"><?php echo '</script'; ?>
+>
 
 <!-- Contact Javascript File -->
-<script src="mail/jqBootstrapValidation.min.js"></script>
-<script src="mail/contact.js"></script>
+<?php echo '<script'; ?>
+ src="mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="mail/contact.js"><?php echo '</script'; ?>
+>
 
 <!-- Template Javascript -->
-<script src="js/main.js"></script>
+<?php echo '<script'; ?>
+ src="js/main.js"><?php echo '</script'; ?>
+>
 </body>
 
-</html>
+</html><?php }
+}

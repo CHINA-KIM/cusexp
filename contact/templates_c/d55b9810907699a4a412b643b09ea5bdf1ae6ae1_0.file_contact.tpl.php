@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 03:47:12
+/* Smarty version 5.4.3, created on 2025-02-01 06:22:06
   from 'file:D:\cusexp\contact/../static/templates/contact.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d99404d97d0_65906896',
+  'unifunc' => 'content_679dbd8e8b8778_85881948',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd55b9810907699a4a412b643b09ea5bdf1ae6ae1' => 
     array (
       0 => 'D:\\cusexp\\contact/../static/templates/contact.tpl',
-      1 => 1738381123,
+      1 => 1738390896,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d99404d97d0_65906896 (\Smarty\Template $_smarty_tpl) {
+function content_679dbd8e8b8778_85881948 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -104,7 +104,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
-" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
                     <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
@@ -116,7 +116,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
 </a>
                     <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
-" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('Contact');?>
 </a>
                 </div>
             </div>
