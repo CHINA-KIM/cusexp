@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 09:51:38
+/* Smarty version 5.4.3, created on 2025-02-01 13:21:40
   from 'file:D:\cusexp\contact/../static/templates/contact.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679deeaa6e9ca0_77887311',
+  'unifunc' => 'content_679e1fe429b4b2_03712980',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd55b9810907699a4a412b643b09ea5bdf1ae6ae1' => 
     array (
       0 => 'D:\\cusexp\\contact/../static/templates/contact.tpl',
-      1 => 1738403497,
+      1 => 1738403971,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679deeaa6e9ca0_77887311 (\Smarty\Template $_smarty_tpl) {
+function content_679e1fe429b4b2_03712980 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -142,7 +142,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             </div>
             <div class="col-md-6 text-center text-md-right">
                 <div class="d-inline-flex align-items-center">
-                    <a class="btn btn-outline-primary" href="<?php echo $_smarty_tpl->getValue('homeurl');?>
+                    <a class="btn btn-outline-primary" href="<?php echo $_smarty_tpl->getValue('indexurl');?>
 "><?php echo $_smarty_tpl->getValue('home');?>
 </a>
                     <i class="fas fa-angle-double-right text-primary mx-2"></i>

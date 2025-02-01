@@ -3,6 +3,8 @@
 
 require_once(__DIR__ . '/../vendor/autoload.php');
 
+
+
 use Smarty\Smarty;
 
 // 使用 Smarty 类

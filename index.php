@@ -18,7 +18,7 @@ use Smarty\Smarty;
 
     //传递单一变量至模板
     $smarty->assign('recenttimes', $yearNumber);
-    $smarty->assign('title', '客戶');
+    $smarty->assign('title', '客戶樣本');
     $smarty->assign('Nav',$Nav);
     // 渲染模板
     $smarty->display('static\templates\index.tpl');

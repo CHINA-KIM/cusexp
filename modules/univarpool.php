@@ -1,7 +1,10 @@
 <?php
 global $PORTF1, $PORTF2, $PORTF3, $PORTF4, $PORTF5, $PORTF6;
 global $address_tra,$email,$phone_tra;
+global $PORTF1_TRA, $PORTF2_TRA, $PORTF3_TRA, $PORTF4_TRA, $PORTF5_TRA, $PORTF6_TRA;
 // 初始化图片路径
+
+
 $PORTF1 = "../img/portfolio-1.jpg";
 $PORTF2 = "../img/portfolio-2.jpg";
 $PORTF3 = "../img/portfolio-3.jpg";

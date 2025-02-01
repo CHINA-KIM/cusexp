@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 09:23:59
+/* Smarty version 5.4.3, created on 2025-02-01 13:21:44
   from 'file:D:\cusexp\service/../static/templates/service.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679de82fc9b6c4_18014289',
+  'unifunc' => 'content_679e1fe82ba8b4_38752306',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b98b32f7536132484143f8757387f1d5a615388' => 
     array (
       0 => 'D:\\cusexp\\service/../static/templates/service.tpl',
-      1 => 1738401802,
+      1 => 1738404039,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679de82fc9b6c4_18014289 (\Smarty\Template $_smarty_tpl) {
+function content_679e1fe82ba8b4_38752306 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -143,7 +143,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="btn btn-outline-primary" href=""><?php echo $_smarty_tpl->getValue('home');?>
+                        <a class="btn btn-outline-primary" href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
                         <i class="fas fa-angle-double-right text-primary mx-2"></i>
                         <a class="btn btn-outline-primary disabled" href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
