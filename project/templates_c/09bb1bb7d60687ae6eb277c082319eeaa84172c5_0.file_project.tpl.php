@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 02:54:30
+/* Smarty version 5.4.3, created on 2025-02-01 03:47:16
   from 'file:D:\cusexp\project/../static/templates/project.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d8ce6a98650_21391648',
+  'unifunc' => 'content_679d9944bb65f2_88826390',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '09bb1bb7d60687ae6eb277c082319eeaa84172c5' => 
     array (
       0 => 'D:\\cusexp\\project/../static/templates/project.tpl',
-      1 => 1738373287,
+      1 => 1738381127,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d8ce6a98650_21391648 (\Smarty\Template $_smarty_tpl) {
+function content_679d9944bb65f2_88826390 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 02:37:12
+/* Smarty version 5.4.3, created on 2025-02-01 03:47:15
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d88d81f4812_80798241',
+  'unifunc' => 'content_679d9943f10121_30980672',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738377401,
+      1 => 1738381369,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d88d81f4812_80798241 (\Smarty\Template $_smarty_tpl) {
+function content_679d9943f10121_30980672 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -36,7 +36,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -59,11 +59,12 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="">FAQs</a>
+                        <a class="text-white pr-3" href="">常見問題</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">Help</a>
+                        <a class="text-white px-3" href="">幫助</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="">Support</a>
+                        <a class="text-white pl-3" href="<?php echo $_smarty_tpl->getValue('helplink');?>
+">技術支持</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -93,36 +94,36 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container position-relative" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
 " class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
+                    <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
+                    <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
+                    <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
+                    <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
 </a>
-                    </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
+</div>
     <!-- Navbar End -->
 
 
@@ -248,7 +249,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
-                        <img class="h-100" src="../img/feature.jpg" alt="">
+                        <img class="h-100" src="img/feature.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -271,7 +272,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                     <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="../img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -285,7 +286,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="../img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -299,7 +300,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="../img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -313,7 +314,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="../img/team-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -385,9 +386,9 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         </div>
         <div class="container border-top border-secondary pt-5">
             <p class="m-0 text-center text-white">
-                <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved.
-
-                By <a target="_blank" href="http://175.178.155.156" title="网页模板">客戶樣本</a>
+                &copy; <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved. 
+				
+								By <a target="_blank" href="http://175.178.155.156/" title="网页模板">客戶樣本</a>
             </p>
         </div>
     </div>
@@ -400,10 +401,10 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
     <!-- JavaScript Libraries -->
     <?php echo '<script'; ?>
- src="https://code.jquery.com/jquery-3.4.1.min.js"><?php echo '</script'; ?>
+ src="../https://code.jquery.com/jquery-3.4.1.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
+ src="../https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="../lib/easing/easing.min.js"><?php echo '</script'; ?>
@@ -420,10 +421,10 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
     <!-- Contact Javascript File -->
     <?php echo '<script'; ?>
- src="mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
+ src="../mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="mail/contact.js"><?php echo '</script'; ?>
+ src="../mail/contact.js"><?php echo '</script'; ?>
 >
 
     <!-- Template Javascript -->

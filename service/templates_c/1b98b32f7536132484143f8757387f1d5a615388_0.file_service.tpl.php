@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 02:54:32
+/* Smarty version 5.4.3, created on 2025-02-01 03:47:17
   from 'file:D:\cusexp\service/../static/templates/service.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d8ce8ed70a8_48469889',
+  'unifunc' => 'content_679d9945c81ec0_34615925',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b98b32f7536132484143f8757387f1d5a615388' => 
     array (
       0 => 'D:\\cusexp\\service/../static/templates/service.tpl',
-      1 => 1738378268,
+      1 => 1738381465,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d8ce8ed70a8_48469889 (\Smarty\Template $_smarty_tpl) {
+function content_679d9945c81ec0_34615925 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -59,11 +59,12 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="">FAQs</a>
+                        <a class="text-white pr-3" href="">常見問題</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">Help</a>
+                        <a class="text-white px-3" href="">幫助</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="">Support</a>
+                        <a class="text-white pl-3" href="<?php echo $_smarty_tpl->getValue('helplink');?>
+">技術支持</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -93,33 +94,36 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container position-relative" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="m-0 display-5 text-white"><span class="text-primary">i</span>DESIGN</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="../about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Service</a>
-                        <a href="../project.html" class="nav-item nav-link">Project</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="../blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="../single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="../contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
+</a>
+                    <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+</a>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
+</div>
     <!-- Navbar End -->
 
 
@@ -334,9 +338,9 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         </div>
         <div class="container border-top border-secondary pt-5">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. 
+                &copy; <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved. 
 				
-								By <a target="_blank" href="http://www.mobanwang.com/" title="网页模板">网页模板</a>
+								By <a target="_blank" href="175.178.155.156/" title="网页模板">客戶樣本</a>
             </p>
         </div>
     </div>
