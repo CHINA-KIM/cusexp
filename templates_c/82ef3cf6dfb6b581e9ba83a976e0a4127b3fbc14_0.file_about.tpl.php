@@ -1,9 +1,33 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 5.4.3, created on 2025-01-31 06:46:02
+  from 'file:about.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_679c71aa58e174_45761789',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '82ef3cf6dfb6b581e9ba83a976e0a4127b3fbc14' => 
+    array (
+      0 => 'about.tpl',
+      1 => 1738303455,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_679c71aa58e174_45761789 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'D:\\cusexp\\static\\templates';
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>iDESIGN - Interior Design HTML Template</title>
+    <title>關於我們</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -39,7 +63,7 @@
                         <span class="text-white">|</span>
                         <a class="text-white px-3" href="">幫助</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="{$helplink}">技術支持</a>
+                        <a class="text-white pl-3" href="">技術支持</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -69,26 +93,38 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-    <div class="container position-relative" style="z-index: 9;">
-        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-            <a href="" class="navbar-brand">
-                <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                <div class="navbar-nav ml-auto py-0">
-                    <a href="{$indexurl}" class="nav-item nav-link active">{$home}</a>
-                    <a href="{$Abouturl}" class="nav-item nav-link">{$About}</a>
-                    <a href="{$Serviceurl}" class="nav-item nav-link">{$Service}</a>
-                    <a href="{$Projecturl}" class="nav-item nav-link">{$Project}</a>
-                    <a href="{$Contacturl}" class="nav-item nav-link">{$Contact}</a>
+        <div class="container position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 display-5 text-white"><span class="text-primary">i</span>DESIGN</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
+                        <a href="about.html" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('About');?>
+</a>
+                        <a href="service.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+</a>
+                        <a href="project.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
+</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="single.html" class="dropdown-item">Blog Detail</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
-</div>
     <!-- Navbar End -->
 
 
@@ -214,7 +250,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
-                        <img class="h-100" src="img/feature.jpg" alt="">
+                        <img class="h-100" src="../img/feature.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -237,7 +273,7 @@
                     <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-1.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -251,7 +287,7 @@
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-2.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -265,7 +301,7 @@
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-3.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -279,7 +315,7 @@
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-4.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -351,9 +387,9 @@
         </div>
         <div class="container border-top border-secondary pt-5">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved. 
+                &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. 
 				
-								By <a target="_blank" href="http://175.178.155.156/" title="网页模板">客戶樣本</a>
+								By <a target="_blank" href="http://www.mobanwang.com/" title="网页模板">网页模板</a>
             </p>
         </div>
     </div>
@@ -365,19 +401,38 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="../https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="../https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="../lib/lightbox/js/lightbox.min.js"></script>
+    <?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.4.1.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/easing/easing.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/owlcarousel/owl.carousel.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/isotope/isotope.pkgd.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/lightbox/js/lightbox.min.js"><?php echo '</script'; ?>
+>
 
     <!-- Contact Javascript File -->
-    <script src="../mail/jqBootstrapValidation.min.js"></script>
-    <script src="../mail/contact.js"></script>
+    <?php echo '<script'; ?>
+ src="../mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../mail/contact.js"><?php echo '</script'; ?>
+>
 
     <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
+    <?php echo '<script'; ?>
+ src="../js/main.js"><?php echo '</script'; ?>
+>
 </body>
 
-</html>
+</html><?php }
+}

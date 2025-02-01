@@ -1,4 +1,28 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 5.4.3, created on 2025-02-01 02:54:32
+  from 'file:D:\cusexp\service/../static/templates/service.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_679d8ce8ed70a8_48469889',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '1b98b32f7536132484143f8757387f1d5a615388' => 
+    array (
+      0 => 'D:\\cusexp\\service/../static/templates/service.tpl',
+      1 => 1738378268,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_679d8ce8ed70a8_48469889 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'D:\\cusexp\\static\\templates';
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,11 +59,11 @@
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="">常見問題</a>
+                        <a class="text-white pr-3" href="">FAQs</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">幫助</a>
+                        <a class="text-white px-3" href="">Help</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="{$helplink}">技術支持</a>
+                        <a class="text-white pl-3" href="">Support</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -69,26 +93,33 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-    <div class="container position-relative" style="z-index: 9;">
-        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-            <a href="" class="navbar-brand">
-                <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                <div class="navbar-nav ml-auto py-0">
-                    <a href="{$indexurl}" class="nav-item nav-link active">{$home}</a>
-                    <a href="{$Abouturl}" class="nav-item nav-link">{$About}</a>
-                    <a href="{$Serviceurl}" class="nav-item nav-link">{$Service}</a>
-                    <a href="{$Projecturl}" class="nav-item nav-link">{$Project}</a>
-                    <a href="{$Contacturl}" class="nav-item nav-link">{$Contact}</a>
+        <div class="container position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 display-5 text-white"><span class="text-primary">i</span>DESIGN</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="../about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Service</a>
+                        <a href="../project.html" class="nav-item nav-link">Project</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="../blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="../single.html" class="dropdown-item">Blog Detail</a>
+                            </div>
+                        </div>
+                        <a href="../contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
-</div>
     <!-- Navbar End -->
 
 
@@ -134,13 +165,13 @@
         <div class="container py-5">
             <div class="row align-items-center py-4">
                 <div class="col-md-6 text-center text-md-left">
-                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">About Us</h1>
+                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Our Services</h1>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
                         <a class="btn btn-outline-primary" href="">Home</a>
                         <i class="fas fa-angle-double-right text-primary mx-2"></i>
-                        <a class="btn btn-outline-primary disabled" href="">About Us</a>
+                        <a class="btn btn-outline-primary disabled" href="">Our Services</a>
                     </div>
                 </div>
             </div>
@@ -149,56 +180,43 @@
     <!-- Page Header Start -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid bg-light">
-        <div class="container">
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="d-flex flex-column align-items-center justify-content-center bg-primary h-100 py-5 px-3">
-                        <i class="flaticon-brickwall display-1 font-weight-normal text-secondary mb-3"></i>
-                        <h4 class="display-3 mb-3">25+</h4>
-                        <h1 class="m-0">Years Experience</h1>
-                    </div>
+                <div class="col-lg-6 pr-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Awesome Services</h6>
+                    <h1 class="mb-4 section-title">Awesome Interior Designing Services For Your Home</h1>
+                    <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
+                    <a href="" class="btn btn-primary mt-3 py-2 px-4">View More</a>
                 </div>
-                <div class="col-lg-7 m-0 my-lg-5 pt-5 pb-5 pb-lg-2 pl-lg-5">
-                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Learn About Us</h6>
-                    <h1 class="mb-4 section-title">We Are The Best Interior Designing Firm In Your City</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <div class="row py-2">
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1>
-                                <h5 class="text-truncate m-0">Project Planning</h5>
-                            </div>
+                <div class="col-lg-6 p-0 pt-5 pt-lg-0">
+                    <div class="owl-carousel service-carousel position-relative">
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Bedroom Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1>
-                                <h5 class="text-truncate m-0">Exterior & Interior</h5>
-                            </div>
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-kitchen display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Kitchen Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
-                                <h5 class="text-truncate m-0">Commercial Design</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
-                                <h5 class="text-truncate m-0">Residential Design</h5>
-                            </div>
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Bathroom Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Services End -->
 
 
     <!-- Features Start -->
-    <div class="container-fluid bg-white">
+    <div class="container-fluid bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 mt-5 py-5 pr-lg-5">
@@ -214,7 +232,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
-                        <img class="h-100" src="img/feature.jpg" alt="">
+                        <img class="h-100" src="../img/feature.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -223,80 +241,45 @@
     <!-- Features End -->
 
 
-    <!-- Team Start -->
-    <div class="container-fluid bg-light">
+    <!-- Testimonial Start -->
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="py-5 px-4 h-100 bg-primary d-flex flex-column align-items-center justify-content-center">
-                        <h6 class="text-white font-weight-normal text-uppercase mb-3">Our Team</h6>
-                        <h1 class="mb-0 text-center">Meet Our Team Members</h1>
+                <div class="col-md-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
+                        <img class="h-100" src="../img/testimonial.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-md-8 col-sm-6 p-0 py-sm-5">
-                    <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
-                        <div class="team d-flex flex-column text-center mx-3">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary text-center px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <div class="col-md-7 py-5 pl-md-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3 pt-5">Testimonial</h6>
+                    <h1 class="mb-4 section-title">What Our Clients Say</h1>
+                    <div class="owl-carousel testimonial-carousel position-relative pb-5 mb-md-5">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="../img/testimonial-1.jpg" style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Client Name</h5>
+                                    <i>Profession</i>
                                 </div>
                             </div>
-                            <div class="d-flex flex-column bg-secondary text-center py-3">
-                                <h5 class="text-white">Name Goes Here</h5>
-                                <p class="m-0">Designation</p>
-                            </div>
+                            <p>Tempor at diam tempor sed. Sanctus dolor ipsum ut nonumy amet clita sea. Sed eos sed dolores vero no. Ipsum elitr elitr stet dolor  lorem erat. Diam no amet sea justo vero ut. Dolor ipsum kasd ipsum dolore.</p>
                         </div>
-                        <div class="team d-flex flex-column text-center mx-3">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary text-center px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="../img/testimonial-2.jpg" style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Client Name</h5>
+                                    <i>Profession</i>
                                 </div>
                             </div>
-                            <div class="d-flex flex-column bg-secondary text-center py-3">
-                                <h5 class="text-white">Name Goes Here</h5>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center mx-3">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary text-center px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-secondary text-center py-3">
-                                <h5 class="text-white">Name Goes Here</h5>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center mx-3">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary text-center px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-secondary text-center py-3">
-                                <h5 class="text-white">Name Goes Here</h5>
-                                <p class="m-0">Designation</p>
-                            </div>
+                            <p class="m-0">Tempor at diam tempor sed. Sanctus dolor ipsum ut nonumy amet clita sea. Sed eos sed dolores vero no. Ipsum elitr elitr stet dolor  lorem erat. Diam no amet sea justo vero ut. Dolor ipsum kasd ipsum dolore.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
@@ -351,9 +334,9 @@
         </div>
         <div class="container border-top border-secondary pt-5">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved. 
+                &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. 
 				
-								By <a target="_blank" href="http://175.178.155.156/" title="网页模板">客戶樣本</a>
+								By <a target="_blank" href="http://www.mobanwang.com/" title="网页模板">网页模板</a>
             </p>
         </div>
     </div>
@@ -365,19 +348,38 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="../https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="../https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="../lib/lightbox/js/lightbox.min.js"></script>
+    <?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.4.1.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/easing/easing.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/owlcarousel/owl.carousel.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/isotope/isotope.pkgd.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../lib/lightbox/js/lightbox.min.js"><?php echo '</script'; ?>
+>
 
     <!-- Contact Javascript File -->
-    <script src="../mail/jqBootstrapValidation.min.js"></script>
-    <script src="../mail/contact.js"></script>
+    <?php echo '<script'; ?>
+ src="../mail/jqBootstrapValidation.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../mail/contact.js"><?php echo '</script'; ?>
+>
 
     <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
+    <?php echo '<script'; ?>
+ src="../js/main.js"><?php echo '</script'; ?>
+>
 </body>
 
-</html>
+</html><?php }
+}
