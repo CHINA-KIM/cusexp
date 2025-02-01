@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 08:04:11
+/* Smarty version 5.4.3, created on 2025-02-01 09:51:38
   from 'file:D:\cusexp\contact/../static/templates/contact.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679dd57b277ec0_31957634',
+  'unifunc' => 'content_679deeaa6e9ca0_77887311',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd55b9810907699a4a412b643b09ea5bdf1ae6ae1' => 
     array (
       0 => 'D:\\cusexp\\contact/../static/templates/contact.tpl',
-      1 => 1738390896,
+      1 => 1738403497,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679dd57b277ec0_31957634 (\Smarty\Template $_smarty_tpl) {
+function content_679deeaa6e9ca0_77887311 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
@@ -127,39 +127,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
 
 <!-- Under Nav Start -->
-<div class="container-fluid bg-white py-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 text-left mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Our Office</h5>
-                        <p class="m-0">123 Street, New York, USA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Email Us</h5>
-                        <p class="m-0">info@example.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Call Us</h5>
-                        <p class="m-0">+012 345 6789</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php echo $_smarty_tpl->getValue('Nav');?>
+
 <!-- Under Nav End -->
 
 
@@ -168,13 +137,18 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
     <div class="container py-5">
         <div class="row align-items-center py-4">
             <div class="col-md-6 text-center text-md-left">
-                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Contact Us</h1>
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase"><?php echo $_smarty_tpl->getValue('Contact');?>
+</h1>
             </div>
             <div class="col-md-6 text-center text-md-right">
                 <div class="d-inline-flex align-items-center">
-                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <a class="btn btn-outline-primary" href="<?php echo $_smarty_tpl->getValue('homeurl');?>
+"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
                     <i class="fas fa-angle-double-right text-primary mx-2"></i>
-                    <a class="btn btn-outline-primary disabled" href="">Contact Us</a>
+                    <a class="btn btn-outline-primary disabled" href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
+"><?php echo $_smarty_tpl->getValue('Contact');?>
+</a>
                 </div>
             </div>
         </div>
@@ -192,22 +166,22 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                     <div class="d-inline-flex border border-secondary p-4 mb-4">
                         <h1 class="flaticon-office font-weight-normal text-secondary m-0 mr-3"></h1>
                         <div class="d-flex flex-column">
-                            <h4>Our Office</h4>
-                            <p class="m-0 text-white">123 Street, New York, USA</p>
+                            <h4>公司地址</h4>
+                            <p class="m-0 text-white">中華人民共和國香港特別行政區</p>
                         </div>
                     </div>
                     <div class="d-inline-flex border border-secondary p-4 mb-4">
                         <h1 class="flaticon-email font-weight-normal text-secondary m-0 mr-3"></h1>
                         <div class="d-flex flex-column">
-                            <h4>Email Us</h4>
-                            <p class="m-0 text-white">info@example.com</p>
+                            <h4>電子郵件</h4>
+                            <p class="m-0 text-white">email@email.com</p>
                         </div>
                     </div>
                     <div class="d-inline-flex border border-secondary p-4">
                         <h1 class="flaticon-telephone font-weight-normal text-secondary m-0 mr-3"></h1>
                         <div class="d-flex flex-column">
-                            <h4>Call Us</h4>
-                            <p class="m-0 text-white">+012 345 6789</p>
+                            <h4>電話</h4>
+                            <p class="m-0 text-white">+852 0000 1111</p>
                         </div>
                     </div>
                 </div>

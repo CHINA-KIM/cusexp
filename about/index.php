@@ -1,14 +1,14 @@
 <?php
 
 //全局变量
-global $yearNumber,$config;
+global $yearNumber,$config,$Nav;
 
 use Smarty\Smarty;
 
 require_once(__DIR__ . '/../vendor/autoload.php');
 require_once(__DIR__ . '/../vendor/smarty/smarty/libs/Smarty.class.php');
 require_once(__DIR__ . '/../modules/config.php');
-
+require_once(__DIR__ . '/../modules/Nav.php');
 $smarty = new Smarty();
 $smarty->clearAllCache();
 $smarty->clearCompiledTemplate();
@@ -23,7 +23,7 @@ foreach ($config as $key => $value)
 
 //变量传递
 $smarty->assign('title','客戶樣本');
-
+$smarty->assign('Nav',$Nav);
 // 渲染模板
 $smarty->display(__DIR__ . '/../static/templates/about.tpl');
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 08:04:20
+/* Smarty version 5.4.3, created on 2025-02-01 09:23:58
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679dd584148645_67413251',
+  'unifunc' => 'content_679de82e8c8035_95965080',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738390755,
+      1 => 1738401320,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679dd584148645_67413251 (\Smarty\Template $_smarty_tpl) {
+function content_679de82e8c8035_95965080 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -128,39 +128,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
 
     <!-- Under Nav Start -->
-    <div class="container-fluid bg-white py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 text-left mb-3 mb-lg-0">
-                    <div class="d-inline-flex text-left">
-                        <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
-                        <div class="d-flex flex-column">
-                            <h5>Our Office</h5>
-                            <p class="m-0">123 Street, New York, USA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
-                    <div class="d-inline-flex text-left">
-                        <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
-                        <div class="d-flex flex-column">
-                            <h5>Email Us</h5>
-                            <p class="m-0">info@example.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
-                    <div class="d-inline-flex text-left">
-                        <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
-                        <div class="d-flex flex-column">
-                            <h5>Call Us</h5>
-                            <p class="m-0">+012 345 6789</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php echo $_smarty_tpl->getValue('Nav');?>
+
     <!-- Under Nav End -->
 
 
@@ -169,13 +138,18 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         <div class="container py-5">
             <div class="row align-items-center py-4">
                 <div class="col-md-6 text-center text-md-left">
-                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">About Us</h1>
+                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase"><?php echo $_smarty_tpl->getValue('About');?>
+</h1>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="btn btn-outline-primary" href="">Home</a>
+                        <a class="btn btn-outline-primary" href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+"><?php echo $_smarty_tpl->getValue('home');?>
+</a>
                         <i class="fas fa-angle-double-right text-primary mx-2"></i>
-                        <a class="btn btn-outline-primary disabled" href="">About Us</a>
+                        <a class="btn btn-outline-primary disabled" href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
+"><?php echo $_smarty_tpl->getValue('About');?>
+</a>
                     </div>
                 </div>
             </div>
@@ -272,7 +246,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                     <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-1.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -286,7 +260,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-2.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -300,7 +274,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-3.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -314,7 +288,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                         </div>
                         <div class="team d-flex flex-column text-center mx-3">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="../img/team-4.jpg" alt="">
                                 <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>

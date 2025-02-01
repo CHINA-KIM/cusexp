@@ -4,7 +4,7 @@ global $address_tra,$email_tra,$phone_tra;
 $address = $address_tra;
 $email = $email_tra;
 $phone = $phone_tra;
-$Navbar =
+$Nav =
     "<div class=\"container-fluid bg-white py-3\">
     <div class=\"container\">
         <div class=\"row\">
@@ -38,4 +38,4 @@ $Navbar =
         </div>
     </div>
 </div>";
-?>
+

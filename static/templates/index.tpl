@@ -93,39 +93,7 @@
 
 
 <!-- Under Nav Start -->
-<div class="container-fluid bg-white py-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 text-left mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Our Office</h5>
-                        <p class="m-0">123 Street, New York, USA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Email Us</h5>
-                        <p class="m-0">info@example.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Call Us</h5>
-                        <p class="m-0">+012 345 6789</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{$Nav}
 <!-- Under Nav End -->
 
 
@@ -290,10 +258,7 @@
         <div class="row">
             <div class="col-12 text-center mb-2">
                 <ul class="list-inline mb-4" id="portfolio-flters">
-                    <li class="btn btn-outline-primary m-1 active"  data-filter="*">All</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".first">Complete</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".second">Running</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".third">Upcoming</li>
+                    <li class="btn btn-outline-primary m-1 active"  data-filter="*" >經典案例展示</li>
                 </ul>
             </div>
         </div>

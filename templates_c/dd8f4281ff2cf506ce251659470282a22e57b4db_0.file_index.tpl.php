@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 08:09:58
+/* Smarty version 5.4.3, created on 2025-02-01 09:12:35
   from 'file:static\templates\index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679dd6d6904514_45572484',
+  'unifunc' => 'content_679de58346e608_55186537',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dd8f4281ff2cf506ce251659470282a22e57b4db' => 
     array (
       0 => 'static\\templates\\index.tpl',
-      1 => 1738397396,
+      1 => 1738401153,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679dd6d6904514_45572484 (\Smarty\Template $_smarty_tpl) {
+function content_679de58346e608_55186537 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -129,39 +129,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 
 
 <!-- Under Nav Start -->
-<div class="container-fluid bg-white py-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 text-left mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Our Office</h5>
-                        <p class="m-0">123 Street, New York, USA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Email Us</h5>
-                        <p class="m-0">info@example.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
-                <div class="d-inline-flex text-left">
-                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
-                    <div class="d-flex flex-column">
-                        <h5>Call Us</h5>
-                        <p class="m-0">+012 345 6789</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php echo $_smarty_tpl->getValue('Nav');?>
+
 <!-- Under Nav End -->
 
 
@@ -328,10 +297,7 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         <div class="row">
             <div class="col-12 text-center mb-2">
                 <ul class="list-inline mb-4" id="portfolio-flters">
-                    <li class="btn btn-outline-primary m-1 active"  data-filter="*">All</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".first">Complete</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".second">Running</li>
-                    <li class="btn btn-outline-primary m-1" data-filter=".third">Upcoming</li>
+                    <li class="btn btn-outline-primary m-1 active"  data-filter="*" >經典案例展示</li>
                 </ul>
             </div>
         </div>
