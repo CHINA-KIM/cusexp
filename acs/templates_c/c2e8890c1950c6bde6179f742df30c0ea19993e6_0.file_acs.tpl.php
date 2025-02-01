@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-01-30 20:04:01
+/* Smarty version 5.4.3, created on 2025-02-01 07:43:14
   from 'file:static/acs.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679bdb314bce59_42900739',
+  'unifunc' => 'content_679dd0926c2b03_49239741',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c2e8890c1950c6bde6179f742df30c0ea19993e6' => 
     array (
       0 => 'static/acs.tpl',
-      1 => 1738267440,
+      1 => 1738395793,
       2 => 'file',
     ),
   ),
@@ -20,163 +20,135 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679bdb314bce59_42900739 (\Smarty\Template $_smarty_tpl) {
+function content_679dd0926c2b03_49239741 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\acs\\static';
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $_smarty_tpl->getValue('title');?>
-</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: burlywood;
-            padding: 15px;
-            color: white;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .container {
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        input[type="file"], input[type="submit"], input[type="number"] {
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .input-container {
-            margin-bottom: 20px;
-        }
-        .input-container input[type="file"] {
-            width: 100%;
-        }
-        .input-container input[type="number"] {
-            width: 50px;
-        }
-        .input-container button {
-            padding: 10px 15px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        .input-container button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>服务管理后台</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+<div class="container mt-5">
+    <h1 class="text-center">服务管理后台</h1>
 
-<header>
-    <h1>客户样本管理后台</h1>
-</header>
-
-<nav>
-    <a href="index.php?action=home">首页</a>
-    <a href="index.php?action=about">关于我们</a>
-    <a href="index.php?action=service">服务</a>
-    <a href="index.php?action=case">成功案例</a>
-    <a href="index.php?action=contact">联系我们</a>
-</nav>
-
-<div class="container">
-    <?php if ($_smarty_tpl->getValue('action') == 'home') {?>
-        <h2>首页</h2>
-        <div class="input-container">
-            <label for="image-count">请输入上传图片的数量:</label>
-            <input type="number" id="image-count" name="image-count" min="1" max="10">
-            <button onclick="generateInputs()">确定</button>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">后台管理</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#customerMessages">客户信息</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#websiteContent">网站内容与图片</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <form id="upload-form" action="index.php?action=home" method="post" enctype="multipart/form-data">
-            <!-- 动态生成的输入框将会在这里插入 -->
+    <!-- 客户信息模块 -->
+    <div id="customerMessages" class="mt-4">
+        <h2>客户发来的信息</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>客户姓名</th>
+                <th>信息内容</th>
+                <th>提交时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('customerMessages'), 'message');
+$foreach0DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('message')->value) {
+$foreach0DoElse = false;
+?>
+                <tr>
+                    <td><?php echo $_smarty_tpl->getValue('message')['id'];?>
+</td>
+                    <td><?php echo $_smarty_tpl->getValue('message')['name'];?>
+</td>
+                    <td><?php echo $_smarty_tpl->getValue('message')['content'];?>
+</td>
+                    <td><?php echo $_smarty_tpl->getValue('message')['submit_time'];?>
+</td>
+                </tr>
+            <?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 网站内容与图片更新模块 -->
+    <div id="websiteContent" class="mt-4">
+        <h2>更换网站内容与图片</h2>
+        <form method="POST" action="update_content.php" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="pageTitle">页面标题</label>
+                <input type="text" class="form-control" id="pageTitle" name="pageTitle" value="<?php echo $_smarty_tpl->getValue('pageTitle');?>
+" required>
+            </div>
+            <div class="form-group">
+                <label for="pageDescription">页面描述</label>
+                <textarea class="form-control" id="pageDescription" name="pageDescription" rows="5" required><?php echo $_smarty_tpl->getValue('pageDescription');?>
+</textarea>
+            </div>
+            <div class="form-group">
+                <label for="seoKeywords">SEO关键词</label>
+                <input type="text" class="form-control" id="seoKeywords" name="seoKeywords" value="<?php echo $_smarty_tpl->getValue('seoKeywords');?>
+">
+            </div>
+            <div class="form-group">
+                <label for="pageContent">页面内容</label>
+                <textarea class="form-control" id="pageContent" name="pageContent" rows="5" required><?php echo $_smarty_tpl->getValue('pageContent');?>
+</textarea>
+            </div>
+
+            <!-- 图片上传模块 -->
+            <h3>上传图片 (最多 6 张)</h3>
+            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('imageIndices'), 'imageIndex');
+$foreach1DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('imageIndex')->value) {
+$foreach1DoElse = false;
+?>
+                <div class="form-group">
+                    <label for="pageImage<?php echo $_smarty_tpl->getValue('imageIndex');?>
+">上传图片 <?php echo $_smarty_tpl->getValue('imageIndex');?>
+</label>
+                    <input type="file" class="form-control-file" id="pageImage<?php echo $_smarty_tpl->getValue('imageIndex');?>
+" name="pageImage[]">
+
+                    <!-- 显示当前图片路径（如果有的话）-->
+                    <?php if ((true && (true && null !== ($_smarty_tpl->getValue('currentImages')[$_smarty_tpl->getValue('imageIndex')-1] ?? null)))) {?>
+                        <div class="mt-2">
+                            <label>当前图片：</label>
+                            <input type="text" class="form-control" value="<?php echo $_smarty_tpl->getValue('currentImages')[$_smarty_tpl->getValue('imageIndex')-1];?>
+" readonly>
+                        </div>
+                    <?php }?>
+                </div>
+            <?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+
+            <button type="submit" class="btn btn-primary">更新内容</button>
         </form>
-    <?php }?>
-
-    <?php if ($_smarty_tpl->getValue('action') == 'about') {?>
-        <h2>关于我们</h2>
-        <div class="input-container">
-            <label for="image-count-about">请输入上传图片的数量:</label>
-            <input type="number" id="image-count-about" name="image-count-about" min="1" max="10">
-            <button onclick="generateInputs('about')">确定</button>
-        </div>
-
-        <form id="upload-form-about" action="index.php?action=about" method="post" enctype="multipart/form-data">
-            <!-- 动态生成的输入框将会在这里插入 -->
-        </form>
-    <?php }?>
-
-    <!-- 其他页面的表单输入框以此类推 -->
+    </div>
 </div>
 
 <?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.6.0.min.js"><?php echo '</script'; ?>
 >
-    // 生成输入框
-    function generateInputs(page = 'home') {
-        const countInput = document.getElementById('image-count' + (page === 'home' ? '' : '-' + page));
-        const count = parseInt(countInput.value, 10);
-        const form = document.getElementById('upload-form' + (page === 'home' ? '' : '-' + page));
-
-        if (!count || count < 1 || count > 10) {
-            alert('请输入有效的数字（1-10）');
-            return;
-        }
-
-        form.innerHTML = ''; // 清空表单
-
-        // 动态生成输入框
-        for (let i = 0; i < count; i++) {
-            const formGroup = document.createElement('div');
-            formGroup.classList.add('form-group');
-
-            const label = document.createElement('label');
-            label.setAttribute('for', 'image' + i);
-            label.textContent = '上传图片 ' + (i + 1) + '：';
-
-            const input = document.createElement('input');
-            input.type = 'file';
-            input.name = 'image' + i;
-            input.id = 'image' + i;
-            input.accept = 'image/*';
-
-            formGroup.appendChild(label);
-            formGroup.appendChild(input);
-
-            form.appendChild(formGroup);
-        }
-
-        // 添加提交按钮
-        const submitBtn = document.createElement('input');
-        submitBtn.type = 'submit';
-        submitBtn.value = '上传图片';
-        form.appendChild(submitBtn);
-    }
-<?php echo '</script'; ?>
+<?php echo '<script'; ?>
+ src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
 >
-
 </body>
 </html>
 <?php }

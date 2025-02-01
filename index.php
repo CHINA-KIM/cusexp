@@ -14,7 +14,7 @@ use Smarty\Smarty;
     foreach ($config as $key => $value)    {
     $smarty->assign($key, $value);
     }
-    $smarty->assign('yearNumber', $yearNumber);
+    $smarty->assign('recenttimes', $yearNumber);
     $smarty->assign('title', '客戶樣本');
     // 渲染模板
     $smarty->display('static\templates\index.tpl');

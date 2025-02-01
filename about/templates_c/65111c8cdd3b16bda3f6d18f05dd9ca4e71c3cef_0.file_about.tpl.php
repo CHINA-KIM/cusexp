@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 06:21:41
+/* Smarty version 5.4.3, created on 2025-02-01 08:04:20
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679dbd75edb973_30425496',
+  'unifunc' => 'content_679dd584148645_67413251',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679dbd75edb973_30425496 (\Smarty\Template $_smarty_tpl) {
+function content_679dd584148645_67413251 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">

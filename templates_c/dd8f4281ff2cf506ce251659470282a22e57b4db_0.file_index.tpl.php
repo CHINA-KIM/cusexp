@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 05:31:33
+/* Smarty version 5.4.3, created on 2025-02-01 08:09:58
   from 'file:static\templates\index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679db1b521c496_21115751',
+  'unifunc' => 'content_679dd6d6904514_45572484',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dd8f4281ff2cf506ce251659470282a22e57b4db' => 
     array (
       0 => 'static\\templates\\index.tpl',
-      1 => 1738387890,
+      1 => 1738397396,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679db1b521c496_21115751 (\Smarty\Template $_smarty_tpl) {
+function content_679dd6d6904514_45572484 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -339,7 +339,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio1');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -347,7 +348,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio1');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -357,7 +359,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio2');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -365,7 +368,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio2');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -375,7 +379,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio3');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -383,7 +388,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio3');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -393,7 +399,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio4');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -401,7 +408,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio4');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -411,7 +419,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-5.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio5');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -419,7 +428,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio5');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -429,7 +439,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-6.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo $_smarty_tpl->getValue('portfolio6');?>
+" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -437,7 +448,8 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="<?php echo $_smarty_tpl->getValue('portfolio6');?>
+" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>

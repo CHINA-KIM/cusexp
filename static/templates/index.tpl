@@ -301,7 +301,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio1}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -309,7 +309,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio1}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -319,7 +319,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio2}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -327,7 +327,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio2}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -337,7 +337,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio3}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -345,7 +345,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio3}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -355,7 +355,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio4}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -363,7 +363,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio4}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -373,7 +373,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-5.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio5}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -381,7 +381,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio5}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>
@@ -391,7 +391,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                 <div class="position-relative overflow-hidden">
                     <div class="portfolio-img d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/portfolio-6.jpg" alt="">
+                        <img class="img-fluid" src="{$portfolio6}" alt="">
                     </div>
                     <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white mb-4">Project Name</h4>
@@ -399,7 +399,7 @@
                             <a class="btn btn-outline-primary m-1" href="">
                                 <i class="fa fa-link"></i>
                             </a>
-                            <a class="btn btn-outline-primary m-1" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                            <a class="btn btn-outline-primary m-1" href="{$portfolio6}" data-lightbox="portfolio">
                                 <i class="fa fa-eye"></i>
                             </a>
                         </div>

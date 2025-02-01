@@ -12,6 +12,13 @@ $config = [
     'Projecturl' => "/project", // 直接写相对路径
     'Abouturl' => "/about",       // 直接写相对路径
     'helplink'=>"http://www.baidu.com",
+    'portfolio1'=>"img/portfolio-1.jpg",
+    'portfolio2' => "img/portfolio-2.jpg",
+    'portfolio3' => "img/portfolio-3.jpg",
+    'portfolio4' => "img/portfolio-4.jpg",
+    'portfolio5' => "img/portfolio-5.jpg",
+    'portfolio6' => "img/portfolio-6.jpg",
+    
 ];
 
 
