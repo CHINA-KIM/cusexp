@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-01 00:51:36
+/* Smarty version 5.4.3, created on 2025-02-01 02:37:12
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679d7018b6b7f7_39281032',
+  'unifunc' => 'content_679d88d81f4812_80798241',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738366306,
+      1 => 1738377401,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679d7018b6b7f7_39281032 (\Smarty\Template $_smarty_tpl) {
+function content_679d88d81f4812_80798241 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -104,16 +104,16 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
-" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
                         <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('service')['html'];?>
+                        <a href="<?php echo $_smarty_tpl->getValue('Serviceurl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
 </a>
-                        <a href="<?php echo $_smarty_tpl->getValue('projecturl');?>
-" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('Project');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('Projecturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
 </a>
                         <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
 " class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
