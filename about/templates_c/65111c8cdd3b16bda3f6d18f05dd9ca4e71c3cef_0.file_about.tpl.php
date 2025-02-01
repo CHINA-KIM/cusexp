@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-01-31 10:57:09
+/* Smarty version 5.4.3, created on 2025-02-01 00:51:36
   from 'file:D:\cusexp\about/../static/templates/about.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_679cac85853416_15005825',
+  'unifunc' => 'content_679d7018b6b7f7_39281032',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65111c8cdd3b16bda3f6d18f05dd9ca4e71c3cef' => 
     array (
       0 => 'D:\\cusexp\\about/../static/templates/about.tpl',
-      1 => 1738320918,
+      1 => 1738366306,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_679cac85853416_15005825 (\Smarty\Template $_smarty_tpl) {
+function content_679d7018b6b7f7_39281032 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
 ?><!DOCTYPE html>
 <html lang="en">
@@ -96,25 +96,28 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         <div class="container position-relative" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="m-0 display-5 text-white"><span class="text-primary">i</span>DESIGN</h1>
+                    <h1 class="m-0 display-5 text-white"><span class="text-primary">客</span>户样本</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <div class="navbar-nav ml-auto py-0">
-                            <a href="index.html" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('home');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('indexurl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('home');?>
 </a>
-                            <a href="about.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('Abouturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('About');?>
 </a>
-                            <a href="service.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('service')['html'];?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Service');?>
 </a>
-                            <a href="project.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Project');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('projecturl');?>
+" class="nav-item nav-link active"><?php echo $_smarty_tpl->getValue('Project');?>
 </a>
-                            <a href="contact.html" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
+                        <a href="<?php echo $_smarty_tpl->getValue('Contacturl');?>
+" class="nav-item nav-link"><?php echo $_smarty_tpl->getValue('Contact');?>
 </a>
-                        </div>
                     </div>
                 </div>
             </nav>
@@ -382,9 +385,9 @@ $_smarty_current_dir = 'D:\\cusexp\\static\\templates';
         </div>
         <div class="container border-top border-secondary pt-5">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. 
-				
-								By <a target="_blank" href="http://www.mobanwang.com/" title="网页模板">网页模板</a>
+                <a class="text-white font-weight-bold" href="#">客戶樣本</a>. All Rights Reserved.
+
+                By <a target="_blank" href="http://175.178.155.156" title="网页模板">客戶樣本</a>
             </p>
         </div>
     </div>
